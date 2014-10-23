@@ -17,6 +17,7 @@
     GCDAsyncSocket *_socket;
 }
 
+// 在block中返回服务器传递的数据
 - (void)sendRequest:(NSData *)request onCompleted:(void (^)(NSData *))completeHandler;
 
 
